@@ -2,9 +2,9 @@
     "apiVersion": 2,
     "name": "create-block/text-box",
     "title": "text-box",
-    "category": "widgets",
+    "category": "text",
     "icon": "smiley",
-    "description": "Example block written with ESNext standard and JSX support – build step required.",
+    "description": "This is a simple text box.",
     "supports": {
         "html": false
     },
@@ -14,7 +14,9 @@
     "style": "file:./build/style-index.css",
     "attributes": {
         "text": {
-            "type": "string"
+            "type": "string",
+            "source": "html",
+            "selector": "h4"
         }
     }
 }
