@@ -12,5 +12,14 @@
   color: #fff;
   padding: 2px;
 }
+.wp-block-create-block-boilerplate.text-box-align-left {
+  text-align: left;
+}
+.wp-block-create-block-boilerplate.text-box-align-center {
+  text-align: center;
+}
+.wp-block-create-block-boilerplate.text-box-align-right {
+  text-align: right;
+}
 
 /*# sourceMappingURL=style-index.css.map*/

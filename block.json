@@ -17,6 +17,10 @@
             "type": "string",
             "source": "html",
             "selector": "h4"
+        },
+        "alignmant": {
+            "type": "string",
+            "default": "left"
         }
     }
 }
