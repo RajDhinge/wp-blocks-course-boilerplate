@@ -18,9 +18,15 @@
             "source": "html",
             "selector": "h4"
         },
-        "alignmant": {
+        "alignment": {
             "type": "string",
             "default": "left"
+        },
+        "backgroundColor": {
+            "type": "string"
+        },
+        "textColor": {
+            "type": "string"
         }
     }
 }
