@@ -46,6 +46,7 @@ export default function Edit({ attributes, setAttributes }) {
 						value={backgroundColor}
 						onChange={onBackgroundColorChange}
 					/>
+
 					<ColorPalette
 						colors={[
 							{ name: 'red', color: '#F00' },
