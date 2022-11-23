@@ -36,7 +36,6 @@ export default function Edit({ attributes, setAttributes }) {
 				<PanelBody
 					title={__('Color Settings', 'text-box')}
 					icon="admin-appearance"
-					initialOpen
 				>
 					<ColorPalette
 						colors={[

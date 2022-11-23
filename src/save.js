@@ -7,7 +7,7 @@ export default function save({ attributes }) {
 			{...useBlockProps.save({
 				className: `text-box-align-${alignment}`,
 				style: {
-					backgroundColor,
+					backgroundColor: backgroundColor.color,
 					color: textColor,
 				},
 			})}
